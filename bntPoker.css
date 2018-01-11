@@ -1,0 +1,672 @@
+html , body { 
+
+		overflow-x:hidden;
+}
+
+.top-bar-login {
+    margin-right: 5px;
+}
+
+.jumbotron {
+	
+    text-align: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(room.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 50px;
+    padding-top: 8%;
+    padding-bottom: 29px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    
+    
+   
+   
+}
+#success_message {
+
+
+background:#DEEFD7;;
+ color:#427640;
+  border-radius:9px;
+
+
+}
+
+
+
+
+.display-3 {
+
+    position: relative;
+    bottom: 30px;
+    font-weight: bold;
+    font-size: 92px;
+    animation: 1s ease-in 0s 1 fadeIn;
+  
+  
+}
+
+.gold {
+		position:relative;	
+  		opacity:0.9;
+  		max-width:123px;
+  		max-height:123px;
+        margin-bottom:11px;
+        margin-top:8px;
+    
+   		
+}
+
+
+.mailList {
+
+    animation: 2s ease-in 0s 1 rotateIn;
+    position: relative;
+    top: 10px;
+}
+
+.knowMore {
+
+    animation: 3.0s ease-in 0s 1 fadeIn;
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+  
+}
+
+#you-should {
+
+    position: relative;
+    bottom: 15px;
+    right: 5px;
+    font-family: 'Merriweather', serif;
+    animation: 3.0s ease-in 0s 1 fadeIn;
+    font-size:23px;
+  
+}
+
+#exampleInputEmail2 {
+
+
+    margin-right: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding-right:35px;
+    
+
+
+}
+.search { position: relative; }
+
+.search .fa-times { 
+  position: absolute;
+  color:#DD3D3D;
+  bottom: 17px;
+  left: 222px;
+  font-size: 19px;
+    display:none;
+   
+}
+.tool {
+
+    background-color:#6F7DCA;
+    width: 130px;
+    color: white;
+    text-align: center;
+    padding: 8px 8px;
+    border-radius: 6px;
+    font-size:15px;
+    position: absolute;
+    font-family: 'Actor', sans-serif;
+    left:20%;
+    z-index: 1;
+   visibility: hidden;
+   
+    
+   
+}
+.tool::after {
+        content: " ";
+        position: absolute;
+        bottom: 100%;  /* At the top of the tooltip */
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent #6F7DCA transparent;
+        
+    
+}
+.search:hover > .tool {
+
+   visibility: visible
+}
+  
+#why {
+
+    margin-bottom: 50px;
+}
+
+.lead {
+
+    font-family: sans-serif;
+}
+
+#sign-up {
+
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#error_message { 
+
+
+    width:100%; 
+    height:100%; 
+    display:none; 
+}
+#success_message {
+
+	
+}
+.fa {
+
+    margin-right: 5px;
+    font-size: 30px;
+    position: relative;
+    bottom: 1px;
+}
+
+#summery-header {
+
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 66px;
+    
+}
+
+#summery {
+
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.card-img-top {
+
+    width: 100%;
+    height: 60%;
+    
+}
+
+
+.nav-link {
+
+    font-size: 18px;
+
+    font-family: 'Merriweather', serif;
+}
+
+.nav-link:hover {
+
+    animation: 0.5s ease-out 0s 1 swing;
+}
+
+
+.flush {
+    height: 45px;
+}
+
+
+#summery-header {
+
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 3px 3px grey;
+    letter-spacing: 3px;
+}
+
+.card {
+
+    background-color: #f7f7f7;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.card:hover {
+
+    animation: 1s ease-in 0s 1 pulse
+}
+
+.alert {
+
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 40px;
+    display: none;
+}
+
+
+#contactUs {
+
+    color: white;
+    outline: none;
+    background-clip: none;
+    font-size: 95px;
+    border: none;
+    font-family: 'Berkshire Swash', cursive;
+    background-color: transparent;
+    outline: none;
+    position: relative;
+    top: 30px;
+}
+
+#contactUs:hover {
+
+    color: navajowhite;
+    cursor: pointer;
+    animation: 2s ease-in 0s 1 tada
+}
+
+
+
+#btnContactUs {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 75px;
+    cursor: pointer;
+}
+
+
+.modal-content {
+    background-image: url("ace.png");
+    background-size: 100% 100%;
+    position: relative;
+   
+}
+
+.title {
+
+    margin-left: 30%;
+   font-family: 'Merriweather', serif;
+}
+
+
+
+#success_message {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#close {
+    outline: none;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    padding: 7px;
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    transition: 0.5s
+}
+
+#close:hover {
+
+    color: #F56565;
+    background: rgba(0, 0, 0, 0.1);
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+
+.backgroundDiv {
+
+
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    margin-top: 70px;
+    width: 100%;
+    height: 490px;
+}
+
+.symbols {
+
+    height: 100px;
+    width: 100%;
+    background-image: url("wow.gif");
+    background-size: 10% 100%;
+    margin-top: 20px;
+}
+
+
+
+/* //////////////                                                 ////////////////////
+
+///////////////              KEYFRAMES ANIMATION START            ////////////////////
+
+//////////////                                                    ///////////////////// */
+
+
+@keyframes swing {
+    20% {
+        transform: rotate3d(0, 0, 1, 15deg);
+    }
+
+    40% {
+        transform: rotate3d(0, 0, 1, -10deg);
+    }
+
+    60% {
+        transform: rotate3d(0, 0, 1, 5deg);
+    }
+
+    80% {
+        transform: rotate3d(0, 0, 1, -5deg);
+    }
+
+    to {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+}
+
+
+
+@keyframes pulse {
+    from {
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    to {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes rotateIn {
+    from {
+        transform-origin: center;
+        transform: rotate3d(0, 0, 1, -200deg);
+        opacity: 0;
+    }
+
+
+    to {
+        transform-origin: center;
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes tada {
+    from {
+        transform: scale3d(1, 1, 1);
+    }
+
+    10%,
+    20% {
+        transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+
+    40%,
+    60%,
+    80% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+
+    to {
+        transform: scale3d(1, 1, 1);
+    }
+}
+/* //////////////                                                      ////////////////////
+
+///////////////              MEDIA QUERIES START                       ////////////////////
+
+//////////////                                                         ///////////////////// */
+
+
+@media screen and ( max-width: 400px) {
+
+  .display-3 {  
+  
+  			font-size: 46px;
+    		position:relative;
+    		top:20px;
+    		border-bottom:4px dotted white;
+    		
+  
+  	}
+
+      #contactUs:hover {
+        
+                animation: none;
+            }
+      .symbols {
+        
+            
+            width: 100%;
+         
+            background-size: 32% 100%;
+        
+        }
+      #you-should {
+
+        position:relative;
+        top:25px;
+    }
+    
+    .card {
+
+
+        min-width:100%;
+    }
+
+    .card-img-top {
+
+        min-width:100%;
+
+    }
+
+  #contactUs {
+  		
+    font-size:82px;
+    position:relative;
+    right:38px
+  }
+
+  .title {
+  
+  position:relative;
+  right:36px;
+   
+  }
+	
+  .gold {
+  
+  position:relative;
+  right:10px;
+  }
+
+}
+
+@media screen and ( min-width: 401px) and ( max-width: 619px) {
+    #contactUs:hover {
+
+        animation: none;
+    }
+    .display-3 { 
+
+        font-size:58px;
+        position: relative;
+        top:5px;
+        right:7px;
+    }
+    .symbols {
+        
+            
+            width: 100%;
+         
+            background-size: 32% 100%;
+        
+        }
+    #you-should {
+
+        position:relative;
+        top:15px;
+    }
+    
+    .card {
+
+
+        min-width:100%;
+    }
+
+    .card-img-top {
+
+        min-width:100%;
+
+    }
+
+  .title {
+  
+  	position:relative;
+      right:20px;
+  }
+
+
+
+}
+
+@media screen and ( min-width: 620px) and (max-width:810px) {
+
+    .card {
+        
+        
+                min-width:50%;
+                max-width:70%;
+                min-height:500px;
+               
+            }
+
+            .card-block {
+                
+            }
+
+	
+}
+
+@media screen and ( min-width:572px) and (max-width:808px) { 
+
+
+
+
+            .firstCard {
+
+margin-left:14px;
+                
+            }
+}
+@media screen and ( min-width:617px) and (max-width:810px) {
+
+
+      
+      .card {
+
+        position: relative;
+        left:80px;
+      }
+        }
+
+
+        @media screen and ( min-width:810px) and (max-width:1199px) {
+            
+
+
+                     .card { 
+
+                        height:750px;
+                     }
+
+        } 
+
+
+@media screen and ( min-width:1200px) { 
+
+    .display-3 {
+
+        position: relative;
+        bottom:50px;
+    }
+
+
+  
+  #summery-header {
+  
+  			margin-top:40px;
+  }
+
+  
+  
+  #summery {
+  			width:65%;
+            margin-left:18%;
+           
+    		
+  }
+
+	 .mailList {
+  
+  		position:relative;
+    	top:15px;
+  }
+  .knowMore  {
+    		position:relative;
+    		top:15px;
+  }
+	
+    
+  
+  
+  
+} 
+
+
+            

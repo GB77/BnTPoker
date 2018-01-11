@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>BnT Poker</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0,minimum-scale=1.0, user-scalable=no,shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Actor|Berkshire+Swash|Merriweather" rel="stylesheet">   
+         <link rel="stylesheet" type="text/css" href="bntPoker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="bntPoker.js"></script>
+
+
+
+
+</head>
+<style>
+
+</style>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="95">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded navbar fixed-top" id="navbar">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+        <span class="navbar-brand" href="#"><img src="logo.png" alt=""> | </span>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#summery-header">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <span class="form-inline pull-xs-right">
+               <img src="flush.png" class="flush">
+            </span>
+        </div>
+    </nav>
+
+    <div class="jumbotron " id="jumbotron">
+
+        <h1 class="display-3">Professional Poker Rooms </h1>
+
+        <p id="you-should" class="lead">Constructing , Organizing, and Maintaining High Level Poker Rooms </p>
+        <img src="gold.png" class="gold">
+        <p class="knowMore">Join our mailing list for all updates </p>
+        <p class="lead">
+            <form class="form-inline justify-content-center mailList" id="myForm" method="post">
+                <i class="fa fa-cube" style="font-size:28px"></i>
+                <div class="search">
+                    <input type="email" name="mailingList" class="form-control" id="exampleInputEmail2" placeholder="Enter Email">
+                    <span class="fa fa-times"></span>
+                    <span class="tool">Please enter a valid email</span>
+                   
+                </div>
+
+                <button id="sign-up" class="btn btn-primary btn-primary" type="button">Sign up</button>
+
+            </form>
+            <div id="success" class="alert alert-success" role="alert">
+                Great! Stay tuned for all recent events and announcements!
+            </div>
+        </p>
+    </div>
+
+
+    <div class="symbols"> </div>
+    <div>
+
+        <h1 id="summery-header">About Us</h1>
+        <p id="summery">We specialize in initiating and running poker rooms for casinos and private demands. Whether you are looking to start
+            a new successful poker room , or improve one to reach the highest standards , you are in the right place.
+
+        </p>
+
+    </div>
+
+
+
+
+    <div class="container" id="about">
+        <div class="card-deck">
+
+
+
+
+
+            <div class="card firstCard">
+                <img class="card-img-top responsible" src="responsibilty.png" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title"><i class="fa fa-diamond" aria-hidden="true"></i> <strong>Full responsibility</strong> </h4>
+                    <p class="card-text">Advertisement and promotion , arranging the players , managing work force and ongoing maintance, from
+                        the smallest problem to the biggest. We take care of it all ! </p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+            </div>
+
+
+
+            <div class="card secondCard">
+                <img class="card-img-top" src="Multiple.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title"><i class="fa fa-suitcase" aria-hidden="true"></i> <strong>Highly Experienced</strong></h4>
+                    <p class="card-text">As professional poker players and with many years of experience managing poker rooms , we know exactly
+                        what it takes from both sides to make a top notch poker room.</strong>
+                    </p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+            </div>
+            <div class="card thirdCard">
+                <img class="card-img-top" src="innovation.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title"><i class="fa fa-lightbulb-o" aria-hidden="true"></i><strong> Constant innovation</strong></h4>
+                    <p class="card-text">Always up to date with all the recent poker trends and changes , constantly renewing and innovating.
+                        We are on an everyday mission to improve the poker community while marching it to the 21st century.
+                    </p>
+                    </p>
+                    <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <div id="contact">
+
+        <div class="backgroundDiv">
+            <div class="container">
+                <div class="container-box">
+                    <button id="contactUs" data-toggle="modal" data-target="#myModal">Contact Us</button>
+                </div>
+
+                <div id="myModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span id="close" data-dismiss="modal" onclick="reset()"><span class="xSymbol">X</span></span>
+                                <h4 class="modal-title title">
+                                    Send us an email
+                                </h4>
+
+                            </div>
+                            <div class="modal-body">
+                                <form role="form" method="post" id="reused_form">
+                                    <p> Send your message in the form below and we will get back to you as early as possible.
+                                    </p>
+                                    <div class="form-group">
+
+                                        <input placeholder="Full Name" type="text" class="form-control" id="name" name="name" required maxlength="50" oninvalid="this.setCustomValidity('Please Enter Name')"
+                                            oninput="setCustomValidity('')">
+                                    </div>
+                                    <div class="form-group">
+
+                                        <input type="email" class="form-control" id="email" name="email" required maxlength="50" placeholder="Email Adress" oninvalid="this.setCustomValidity('Please Enter Email')"
+                                            oninput="setCustomValidity('')">
+                                    </div>
+                                    <div class="form-group">
+
+                                        <textarea class="form-control" type="textarea" name="message" id="message" required placeholder="Your Message Here..." maxlength="6000"
+                                            rows="6" oninvalid="this.setCustomValidity('Enter Message Here')" oninput="setCustomValidity('')"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-lg btn-success btn-block" id="btnContactUs">Send</button>
+                                </form>
+                                <div id="success_message">
+                                    <h3>Your Message Was Sent Successfully !</h3>
+                                </div>
+                                <div id="error_message"> Sorry there were errors in your form. Please try again. </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+
+    </script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
